@@ -1,10 +1,10 @@
-import React from 'react';
+// src/Header.jsx
 
 function Header() {
 return (
-<header style={{ backgroundColor: 'navy', color: 'white', textAlign: 'center', padding: '10px' }}>
+    <header>
     <h1>My Favorite Cities</h1>
-</header>
+    </header>
 );
 }
 
