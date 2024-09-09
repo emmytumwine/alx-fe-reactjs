@@ -54,11 +54,14 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+=======
+>>>>>>> 86ac60da8c29cee95f9a5bc9f489366ae106b6fa
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
