@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -65,8 +66,30 @@ export default App
         Click on the Vite and React logos to learn more
       </p>
     </>
+=======
+// src/App.jsx
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import RecipeDetail from './components/RecipeDetail';
+import AddRecipeForm from './components/AddRecipeForm';
+
+function App() {
+  return (
+    <div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/recipe/:id" element={<RecipeDetail />} />
+      </Routes>
+    </Router>
+    <AddRecipeForm />
+    </div>
+>>>>>>> eaf2e2f (Recipe Form)
   );
 }
 
 export default App;
+<<<<<<< HEAD
 >>>>>>> 86ac60da8c29cee95f9a5bc9f489366ae106b6fa
+=======
+>>>>>>> eaf2e2f (Recipe Form)

@@ -6,6 +6,7 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 
 export default [
 <<<<<<< HEAD
+<<<<<<< HEAD
   { ignores: ['dist'] },
   {
     files: ['**/*.{js,jsx}'],
@@ -14,6 +15,11 @@ export default [
     files: ['**/*.{js,jsx}'],
     ignores: ['dist'],
 >>>>>>> 86ac60da8c29cee95f9a5bc9f489366ae106b6fa
+=======
+  { ignores: ['dist'] },
+  {
+    files: ['**/*.{js,jsx}'],
+>>>>>>> eaf2e2f (Recipe Form)
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,

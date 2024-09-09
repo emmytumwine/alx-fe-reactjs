@@ -55,13 +55,19 @@ button:focus-visible {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eaf2e2f (Recipe Form)
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> 86ac60da8c29cee95f9a5bc9f489366ae106b6fa
+=======
+>>>>>>> eaf2e2f (Recipe Form)
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
